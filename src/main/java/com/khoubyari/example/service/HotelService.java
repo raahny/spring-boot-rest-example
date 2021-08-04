@@ -47,7 +47,7 @@ public class HotelService {
         hotelRepository.delete(id);
     }
 
-    //http://goo.gl/7fxvVf
+    //http://goo.gl/7fxvVf//typed
     public Page<Hotel> getAllHotels(Integer page, Integer size) {
         Page pageOfHotels = hotelRepository.findAll(new PageRequest(page, size));
         // example of adding to the /metrics
